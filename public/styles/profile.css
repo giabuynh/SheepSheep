@@ -1,0 +1,71 @@
+/* USER INFO */
+.user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid red; */
+  padding: 0;
+  margin: 0;
+}
+
+.user-info .user-fname {
+  /* border: 1px solid blue; */
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.user-info .user-uname {
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  text-align: center;
+  /* border: 1px solid black; */
+  margin: 0;
+  padding: 0;
+}
+
+/* ADD BUTTON */
+.content #add-btn {
+  min-width: 300px;
+  min-height: 600px;
+  flex-direction: column;
+  align-items: center;
+  padding: 275px 0;
+  cursor: pointer;
+}
+
+#BlogModal .modal-dialog {
+  min-width: 70vw;
+}
+
+#BlogModal .form-field .input-message {
+  width: 85%;
+}
+
+#BlogModal #title, #BlogModal #product {
+  font-family: Roboto;
+  font-weight: normal;
+}
+
+textarea {
+  font-family: Montserrat;
+  width: 100%;
+  outline: none;
+  resize: none;
+  border: 0.5px solid black;
+}
+
+#summary {
+  min-height: 80px;
+}
+
+#content {
+  min-height: 160px;
+}
+
+input[type="file"] {
+  outline: none;
+}

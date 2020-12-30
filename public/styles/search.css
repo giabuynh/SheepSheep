@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.search-container .title {
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 1.25rem;
+  letter-spacing: 0.3rem;
+}
+
+.search-container .input-message {
+  /* border: 1px solid red; */
+  width: 40%;
+  margin-right: 0.2rem;
+}
+
+.search-container .subtitle {
+  font-family: Montserrat;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.search-container .inline {
+  width: 100%;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.search-container input {
+  width: 100%;
+  outline: none;
+  background: #efefef;
+  border: none;
+  font-family: Montserrat;
+  padding: 0.5rem;
+  margin-right: 0.3rem;
+}
+
+.search-container button {
+  align-self: center;
+  background: black;
+  color: white;
+  padding: 0.5rem 20px;
+  margin: 0;
+  border: none;
+  border-radius: 5px;
+  font-family: Montserrat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.pagination .pagination_control {
+  color: black;
+  text-decoration: none;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+.pagination .pagination_control:hover {
+  color: #A6A6A6;
+}
+
+.pagination_control_first::before {
+  content: "← ";
+}
+.pagination_control_last::after {
+   content: " →";
+}
+
+.pagination ol {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.pagination ol .pagination-group {
+  margin: 0 1rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.pagination ol .pagination-group a {
+  text-decoration: none;
+  color: black;
+  padding: .5875em 1em;
+}
+
+.pagination ol .pagination-group a:hover {
+  background-color: #e2e2e2;
+  border-radius: 50%;
+  padding: .5875em 1em;
+
+}
+
+.pagination ol .pagination-group span {
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  padding: .5875em 1em;
+}

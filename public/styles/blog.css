@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+.blog-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.blog-container .blog-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0.5rem;
+}
+
+.blog-container .blog-image img {
+  max-height: 80vh;
+  margin: 0;
+}
+
+.blog-container .blog-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 0.5rem;
+  padding: 0 1.2rem;
+  width: 100%;
+}
+
+.blog-container .blog-content .title {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  color: black;
+}
+
+.blog-container .blog-content .subtitle {
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 1rem;
+  color: #6b6b6b;
+  margin-bottom: 1rem;
+}
+
+.blog-container .blog-content .subtitle a {
+  color: #6b6b6b;
+  text-decoration: none;
+}
+
+.blog-container .blog-content .subtitle a:hover {
+  text-decoration: underline;
+}
+
+.blog-container .blog-content label {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.blog-container .blog-content .field {
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.blog-container ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: none;
+}
+
+.blog-container li {
+  margin-bottom: 1rem;
+}
+
+/* CONFIRM MODAL  */
+#ConfirmModal .modal-content, #ConfirmModal .modal-content .modal-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+}
+
+#ConfirmModal .modal-content .modal-image {
+  margin: 1rem 0;
+}
+
+#ConfirmModal .modal-content .modal-body .title {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+#ConfirmModal .modal-content .modal-body .subtitle {
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+#ConfirmModal .modal-content .inline {
+  width: 100%;
+}
+
+#ConfirmModal .modal-content .modal-btn {
+  align-self: center;
+  width: 100%;
+  background: #c1c1c1;
+  color: white;
+  padding: 15px 30px;
+  margin: 0;
+  border: none;
+  border-radius: 5px;
+  font-family: Montserrat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+  font-weight: 500;
+  margin: 0;
+  margin-right: 0.25rem;;
+}
+#ConfirmModal .modal-content .modal-btn:hover {
+  background: #a8a8a8;
+}
+
+#ConfirmModal .modal-content #confirm-delete-btn {
+  background: #f15e5e;
+  margin: 0;
+  margin-left: 0.25rem;
+}
+#ConfirmModal .modal-content #confirm-delete-btn:hover {
+  background: #ee3535;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 0.75rem;
+}
+
+.comments #CommentForm {
+  display: flex;
+  width: 100%;
+  margin-bottom: 0.75rem;
+}
+
+.comments #CommentForm textarea {
+  width: 90%;
+  margin-right: 0.5rem;
+}
+
+.comments #CommentForm button {
+  align-self: center;
+  /* width: 100%; */
+  background: black;
+  color: white;
+  padding: 15px 30px;
+  margin: 0;
+  border: none;
+  border-radius: 5px;
+  font-family: Montserrat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  letter-spacing: 0.2rem;
+  font-weight: 500;
+}
+
+.comments .blog-comments {
+  display: flex;
+  flex-direction: column;
+}
+
+.comments .blog-comments .blog-cmt {
+  margin-bottom: 0.75rem;
+}
+
+.comments .blog-comments .blog-cmt .cmt-author {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.hide {
+  display: none!important;
+}
+
+.fa-close {
+  color: #e2e2e2;
+  cursor: pointer;
+}
+
+.fa-close:hover {
+  color: black;
+}
